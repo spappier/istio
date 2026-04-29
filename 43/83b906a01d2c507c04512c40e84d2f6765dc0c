@@ -1,0 +1,29 @@
+operator/pkg/helm/testdata/output/gateway-dns-config.golden.yaml
+  4a19d843c01d450f 1-88
+operator/pkg/helm/testdata/input/gateway-dns-config.yaml
+  4a19d843c01d450f 1-17
+manifests/charts/gateway/values.schema.json
+  4a19d843c01d450f 319-324
+operator/pkg/helm/helm_test.go
+  4a19d843c01d450f 204-209
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "4383b906a01d2c507c04512c40e84d2f6765dc0c",
+  "prompts": {
+    "4a19d843c01d450f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "19b7eeb5-4a5a-4189-a177-8fa5b377d2b6",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Santiago Pappier",
+      "messages": [],
+      "total_additions": 125,
+      "total_deletions": 0,
+      "accepted_lines": 125,
+      "overriden_lines": 0
+    }
+  }
+}
